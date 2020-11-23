@@ -11,7 +11,7 @@ What has been useful
 
 - [ ] To Track a remote branch:       
 `git fetch --all`      
-`git branch --track remotes\origin\branch_name branch_name_local`
+`git branch --track branch_name remotes\origin\branch_name`
 
 - [ ] To check changes between local and remote branch:       
 `gut fetch origin`      
