@@ -5,11 +5,13 @@ What has been useful
 - [ ] To replace all files in branch with master's:      
 `git checkout -- *`
 
+- [ ] To exclude files after add:      
+`git restore --staged file_name`
 
 - [ ] To pull in a specific file from another branch:      
 `git checkout another_branch_name -- file_name.extension`
 
-- [ ] To Track a remote branch:       
+- [ ] To track a remote branch:       
 `git fetch --all`      
 `git branch --track branch_name remotes\origin\branch_name`
 
