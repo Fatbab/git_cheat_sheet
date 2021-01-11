@@ -25,5 +25,5 @@ What has been useful
 ` 2) Decide what's the righ thing to do`      
 ` 3) If all is good and still want to push:` ` git push origin branch_name -f `      
 
-- [ ] To switch branch and ignore uncommitted changes:
+- [ ] To switch branch and ignore uncommitted changes:     
 `git checkout -f branch_name`
