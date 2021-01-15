@@ -27,3 +27,6 @@ What has been useful
 
 - [ ] To switch branch and ignore uncommitted changes:     
 `git checkout -f branch_name`
+
+- [ ] To check what is added in commit before pushing:     
+`git diff --stat --chached origin/branch_name`  
