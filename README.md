@@ -1,5 +1,5 @@
 # Git Cheat Sheet
-What has been useful
+These have been useful
 
 
 - [ ] To replace all files in branch with master's:      
@@ -30,3 +30,14 @@ What has been useful
 
 - [ ] To check what is added in commit before pushing:     
 `git diff --stat --chached origin/branch_name`  
+
+- [ ] To upgrade a branch with new additions to origin/master:     
+`git checkout my_branch`    
+`git rebase master`  
+Sometimes after resolving conflicts, I need to run one or both the following:    
+`git rebase --continue`       
+`git rebase --skip`    
+Once everything is good to go:     
+`git push --force origin my_branch`     
+`--force` is needed because remote/my_branch expects to track changes in local/my_branch but after rebase there will be changes in local\branch that belong to master and so `fast forward` wouldn't work anymore. 
+
